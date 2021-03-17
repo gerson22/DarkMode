@@ -15,6 +15,7 @@
 		ABE2C28025C9D4B60008B229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE2C27E25C9D4B60008B229 /* LaunchScreen.storyboard */; };
 		ABE2C28B25C9D4B70008B229 /* EjemploDarkmodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE2C28A25C9D4B70008B229 /* EjemploDarkmodeTests.swift */; };
 		ABE2C29625C9D4B70008B229 /* EjemploDarkmodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE2C29525C9D4B70008B229 /* EjemploDarkmodeUITests.swift */; };
+		ABE2C2A725C9D6FB0008B229 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE2C2A625C9D6FB0008B229 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		ABE2C29125C9D4B70008B229 /* EjemploDarkmodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjemploDarkmodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE2C29525C9D4B70008B229 /* EjemploDarkmodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploDarkmodeUITests.swift; sourceTree = "<group>"; };
 		ABE2C29725C9D4B70008B229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE2C2A625C9D6FB0008B229 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				ABE2C27C25C9D4B60008B229 /* Assets.xcassets */,
 				ABE2C27E25C9D4B60008B229 /* LaunchScreen.storyboard */,
 				ABE2C28125C9D4B60008B229 /* Info.plist */,
+				ABE2C2A625C9D6FB0008B229 /* WelcomeViewController.swift */,
 			);
 			path = EjemploDarkmode;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABE2C27825C9D4B30008B229 /* ViewController.swift in Sources */,
+				ABE2C2A725C9D6FB0008B229 /* WelcomeViewController.swift in Sources */,
 				ABE2C27425C9D4B30008B229 /* AppDelegate.swift in Sources */,
 				ABE2C27625C9D4B30008B229 /* SceneDelegate.swift in Sources */,
 			);
@@ -439,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RG9DD7MR44;
 				INFOPLIST_FILE = EjemploDarkmode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RG9DD7MR44;
 				INFOPLIST_FILE = EjemploDarkmode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
